@@ -1,16 +1,44 @@
 /*Here I am going to start a css program. 
 I will give style to my written Html*/
+/* at media screen css(moble responsive)*/
+@media only screen and (max-width: 980px) {
 body {
     color: #777777;
     background-color:#A3A6BA;
-    width: 960px;
     background-image: url("https://www.toptal.com/designers/subtlepatterns/#")
 }
-header {
+}
+@media only screen and (max-width: 768px) {
+    body {
+        color: rgb(223, 17, 17);
+        background-color:rgb(15, 44, 231);
+        background-image: url("https://www.toptal.com/designers/subtlepatterns/#")
+    }
+    }
+    @media only screen and (max-width: 640px) {
+        body {
+            color: #dadd23;
+            background-color:rgb(163, 186, 171);
+            width: 980px;
+            background-image: url("https://www.toptal.com/designers/subtlepatterns/#")
+        }
+        }
+@media only screen and (max-width: 640px) {
+div.header {
+    position: static;
     font-family:'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
-    font-size:12px;
+    font-size: 24px;
     font-weight:bold;
-    padding:5px;
+    padding:7px;
+    background-color:#ffffff;
+    border-color:#cccccc;
+}
+}
+div.header {
+    font-family:'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+    font-size: 24px;
+    font-weight:bold;
+    padding:7px;
     background-color:#ffffff;
     border-color:#cccccc;
 }
@@ -18,7 +46,7 @@ footer{
     background-color:#666666; 
 }
 .content {
-    background-color:#ffffff;
+    background-color:#cf1f1f;
     border-color:#dddddd;
 
 }
