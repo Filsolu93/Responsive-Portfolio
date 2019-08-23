@@ -1,56 +1,70 @@
-<!doctype html>
-<html lang="en-us">
+<!-- Contact Sheet -->
+<!DOCTYPE html>
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>Filmon Habtu</title>
+
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <title>Filmon m Habtu: Contact</title>
+
 </head>
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Filmon</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+  <header>
+    <div class="head-container">
+      <a href="index.html">
+        <h1>Filmon M Habtu</h1>
+      </a>
+
+      <section id="menu-buttons">
+        <a href="index.html"><button class="button">About</button></a>
+        <a href="portfolio.html"><button class="button">Portfolio</button></a>
+        <a href="contact.html"><button class="button">Contact</button></a>
+      </section>
     </div>
   </header>
+  <div class="container">
+    <section id="contact-box">
+      <h2>Contact</h2><br>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Contact</h1>
-
-      <form id="contact-form">
-        <ul>
-          <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Filmon M.Habtu" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-          </li>
-          <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
-          </li>
-        </ul>
-        <input type="submit">
-      </form>
+      <section id="form-container">
+        <form action="#">
+          Name<br><input id="form-style" placeholder="John Smith"><br>
+          Email<br><input name="Email" id="form-style" placeholder="example@gmail.com"><br>
+          Message<br><textarea name="message" id="message-style" rows="10" cols="30"></textarea>
+          <input type="submit" value="Submit" class="submit-button">
+        </form>
+      </section>
 
     </section>
 
+    <section id="connect">
+      <h3>Connect with Me</h3>
+
+      <section id="icon-container">
+        <a href="https://github.com/Filmon m habtu" target="_blank">
+          <img src="assets/images/1469771795_github_social_media_online_logo.png" alt="githubLogo"
+            id="social-icons"></a>
+
+        <a href="https://www.linkedin.com/in/filmon m habtu/" target="_blank">
+          <img src="assets/images/1469771804_linkedin_social_media_online_logo.png" alt="instagramLogo"
+            id="social-icons"></a>
+
+        <a href="https://www.instagram.com/filhsbtu/" target="_blank">
+          <img src="assets/images/1469771796_instagram_social_media_online_logo.png" alt="instagramLogo"
+            id="social-icons"></a>
+      </section>
+
+    </section>
   </div>
 
-  <footer>
-    <div class="container">
-      filmon Habtu 
-    </div>
-  </footer>
+  <div class="footer-container">
+    <footer>&copy Copyright 2019 Filmon habtu</footer>
+  </div>
+
+
 </body>
 
 </html>
